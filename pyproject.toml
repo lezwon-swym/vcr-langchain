@@ -11,8 +11,8 @@ python = ">=3.8.1,<4.0"
 vcrpy = "^4.3.1"
 langchain = "^0.1.0"
 gorilla = "^0.4.0"
-langchain-openai = "^0.0.2"
-langchain-community = "^0.0.10"
+langchain-openai = "^0.1.3"
+langchain-community = "^0.0.32"
 # use pydantic v2 to avoid the error in bash_patch.py:
 #     RuntimeError: no validator found for <class 're.Pattern'>, see
 #     `arbitrary_types_allowed` in Config
